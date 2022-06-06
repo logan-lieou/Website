@@ -24,7 +24,7 @@ jobs:
           # extended: true
 
       - name: BuildDeps
-        run: num i
+        run: npm i
       - name: Build
         run: hugo --minify
 

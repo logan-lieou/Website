@@ -1,31 +1,38 @@
 baseURL = "https://logan-lieou.github.io/Website/"
 languageCode = "en-us"
 title = "Logan's Personal Website"
-theme = "hallo"
-
-[Author]
-    name = "Logan DN. DeRose"
+theme = "showfolio"
 
 [params]
-    greeting = "Greetings!"
+  name = "Logan's Personal Website"
+  description = "Fullstack Software Engineer"
+  author = "Logan DN. DeRose"
+  authorEmail = "logan.lieou@protonmail.com"
+  authorImage = "circle_woman.png"
+  autoDarkMode = true
 
-    [[params.links]]
-        icon = "github"
-        title = "Github"
-        url = "https://github.com/logan-lieou"
-    [[params.links]]
-				iconset = "fas"
-        icon = "envelope"
-        title = "E-mail"
-        url = "mailto:logan.lieou@protonmail.com"
-    [[params.links]]
-				iconorigin = "ai"
-        iconset = "ai"
-        icon = "google-scholar"
-        title = "Google Scholar"
-        url = "https://scholar.google.com"
+  copyright = "Copyright © 2022 - Logan DN. DeRose · All rights reserved"
+  favicon = "portrait.jpg"
 
-[params.colors]
-	background = "#E8B4B8"
-	foreground = "#fff6f4"
-	hover = "#A49393"
+[params.homepage]
+  title = "Hello 👋 My Name is Logan"
+  tagline = "Fullstack Software Engineer"
+  description = "My goal as a software engineer and product manager is to help your project team maintain its best practice through technical innovation and good execution."
+  contact = ""
+
+[params.homepage.resume]
+  skills = ["Java", "C++", "Web Design", "Web Development", "AI", "Python"]
+
+[[params.homepage.resume.work]]
+  name = "Leon Robotics Solutions"
+  role = "Fullstack Software Engineer"
+  duration = "August 2020 - Current"
+
+[params.homepage.social]
+  github = "https://github.com/logan-lieou"
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+

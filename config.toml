@@ -1,0 +1,31 @@
+baseURL = "https://logan-lieou.github.io/Website/"
+languageCode = "en-us"
+title = "Logan's Personal Website"
+theme = "hallo"
+
+[Author]
+    name = "Logan DN. DeRose"
+
+[params]
+    greeting = "Greetings!"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/logan-lieou"
+    [[params.links]]
+				iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:logan.lieou@protonmail.com"
+    [[params.links]]
+				iconorigin = "ai"
+        iconset = "ai"
+        icon = "google-scholar"
+        title = "Google Scholar"
+        url = "https://scholar.google.com"
+
+[params.colors]
+	background = "#E8B4B8"
+	foreground = "#fff6f4"
+	hover = "#A49393"
